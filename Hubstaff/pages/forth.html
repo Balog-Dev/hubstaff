@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="../hubstaff.css">
+    <title>Document</title>
+</head>
+<body>
+    
+  <style>
+    .child:hover {
+      border: 1px solid blue;
+      box-shadow: 0px 0px 3px silver;
+    }
+
+    .child {
+      width: 230px;
+      height: 160px;
+      min-width: 250px;
+      border: 1px solid gainsboro;
+      margin: 30px;
+      text-align: center;
+      margin: center;
+      box-shadow: 0px 0px 3px silver;
+    }
+
+
+    .parent {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .child {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+  </style>
+
+  <style>
+    .love {
+    
+      width: 100%;
+
+    }
+
+    .nav-tabs .nav-item {
+      width: 32%;
+      box-shadow: 1px 1px 3px gainsboro;
+    }
+
+    .nav-tabs .nav-item .nav-link {
+      width: 100%;
+
+
+    }
+
+    .nav-tabs .nav-item .active {
+
+      border-top: 7px solid blue;
+
+      border-right: none;
+      width: 100%;
+
+    }
+
+    .phone {
+
+      padding: 5px;
+
+
+    }
+  </style>
+
+  <div class="love mt-5 ">
+    <div style="margin-top: 60px;">
+      <div >
+        <h3 class="text-center" style="font-size:200%;" >
+          Choose the plan that’s right for your team
+        </h3>
+        <img src="C:\Users\MOSES\Desktop\project file\log1.PNG" style="margin-left:30%;">
+        <img src="C:\Users\MOSES\Desktop\project file\lod2.PNG">
+        <img src="C:\Users\MOSES\Desktop\project file\hublogo.PNG" style="margin-left: 20%;">
+      </div>
+
+
+
+      <ul class="nav nav-tabs mt-5 ">
+
+        <li class="nav-item">
+          <button class="nav-link  active  text-dark pt-4 " id=" time-tab" data-bs-toggle="tab"
+            data-bs-target="#time"><strong style="font-size: 20px;">Time</strong>
+            <p style="font-size: larger;">Simple time tracking for teams for all sizes</p>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link text-dark  pt-4" id="desk-tab" data-bs-toggle="tab"
+            data-bs-target="#desk"><strong style="font-size: 20px;">Desk</strong>
+            <p style="font-size: larger;">proof of work and workforce management for teams of all sizes</p>
+          </button>
+        </li>
+        <li class="nav-item ">
+          <button class="nav-link text-dark pt-4" id="field-tab" data-bs-toggle="tab"
+            data-bs-target="#field"><strong style="font-size:20px">Field</strong>
+            <p style="font-size: larger;">GPS locations or workforce management for teams of all sizes</p>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tab-content">
+
+    <div class="tab-pane active text-light" id="time">
+      <div class="container m-5">
+        <div class="row">
+          <div class="col-sm-4 text-dark h-50 w-25  " style="border: 1px solid gainsboro; margin-left: 10%;">
+            <p class="mt-3" style="font-size: 45px;">Time pro</p> 
+            <strong style="font-size: 50px;">$7</strong>
+            <span style="font-size: 20px;">/user/ mo</span>
+            <p>Starts at $14. Includes 2 users.</p>
+            <button class="btn btn-outline-primary p-3 w-75" style="margin-left: 10%;"><b>Choose time starter</b></button>
+            <p class="mt-3"> Time tracking</p>
+            <p>Timesheets </p>
+            <p> Reports</p>
+            <p>Limited payments</p>
+            <p>1 integration</p>
+            <p>24h support</p>
+            <p>
+              Per user settings
+            </p>
+          </div>
+          <div class="col-sm-4 text-dark w-25 " style="border: 3px solid blue; margin-left: 3%;">
+            <p style="font-size: 40px;" class="mt-3">Time starter</p>
+            <strong style="font-size: 45px;">$10</strong>
+            <span style="font-size: 20px;"> /user/ mo</span>
+            <p>Starts at $20. Includes 2 users.</p>
+            <button class="  p-3 w-75 mt-3" style="margin-left: 10%;"><b>Choose time pro</b></button>
+            <p class="mt-3"> Time tracking</p>
+            <p> Timesheets</p>
+            <p> Reports</p>
+            <p> Payments</p>
+            <p> Unlimited integrations</p>
+            <p>24h support</p>
+            <p>Per user settings</p>
+            <p>Teams</p>
+            <p> Limited public API</p>
+            <p>Time off & holidays</p>
+            <p>Scheduling & attendance</p>
+            <p>Invoices</p>
+            <p>Payroll</p>
+            <p>Client & project budgets</p>
+            <p>Timesheet approvals</p>
+            <p>Daily & weekly limits</p>
+            <p>Expense tracking</p>
+
+          </div>
+          <div class="col-sm-4 text-dark h-50 w-25" style="border:1px solid gainsboro; margin-left: 3%;">
+           <p style="font-size: 40px;" class="mt-3">Enterprise</p>
+            <p class="mt-5" style="font-size: 21px;">Get a customized plan</p>
+            <button class="btn btn-outline-primary mt-5 p-3 w-75" style="margin-left: 10%;"><b>Let's talk</b></button>
+            <p class="mt-3">All Time, Desk & Field, plus:</p>
+            <p>VIP support</p>
+            <p>Concierge setup</p>
+            <p> Higher limits on public API</p>
+            <p> Unlimited job sites</p>
+            <p>Pay by bank debit (ACH)</p>
+            <p> HIPAA compliance</p>
+          </div>
+          <p class="text-dark text-center mt-3">Not sure? Start your trial and pick later.</p>
+          <a href="../dashboard.html">  <button class="p-2 w-25 mx-auto" style="border: 1px solid gainsboro;">Pick a plan later</button>          </a>
+          <span class="text-dark text-center mt-3">Have questions? Read our <span class="text-primary"> FAQ </span> or  <span class="text-primary">contact us.</span> </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Whatsapp status -->
+    <div class="tab-pane text-light" id="desk">
+      <div class="container m-5">
+        <div class="row">
+          <div class="col-sm-4 text-dark h-50 w-25" style="border: 1px solid gainsboro;margin-left: 10%;">
+            <p class="mt-3" style="font-size: 45px;">Desk pro</p> 
+            <strong style="font-size: 50px;">$7</strong>
+            <span style="font-size: 20px;">/user/ mo</span>
+            <p>Starts at $14. Includes 2 users.</p>
+            <button class="btn btn-outline-primary p-3 w-75" style="margin-left: 10%;"><b>Choose time starter</b></button>
+            <p class="mt-3"> Time tracking</p>
+            <p>Timesheets </p>
+            <p>Activities Level</p>
+            <p>Unlimited Screenshot</p>
+            <p>1 integration</p>
+            <p>24h support</p>
+            <p>
+              Per user settings
+            </p>
+          </div>
+          <div class="col-sm-4 text-dark w-25" style="border: 3px solid blue; margin-left: 3%;">
+            <p style="font-size: 40px;" class="mt-3">Desk starter</p>
+            <strong style="font-size: 45px;">$10</strong>
+            <span style="font-size: 20px;"> /user/ mo</span>
+            <p>Starts at $20. Includes 2 users.</p>
+            <button class="  p-3 w-75 mt-3" style="margin-left: 10%;"><b>Choose time pro</b></button>
+            <p class="mt-3"> Time tracking</p>
+            <p> Timesheets</p>
+            <p>Activities Level</p>
+            <p>Unlimited Screenshot</p>
+            <p> Reports</p>
+            <p>Payments</p>
+            <p>Unlimited integration</p>
+            <p>24h support</p>
+            <p> Per user settings</p>
+            <p>Track apps & URLs</p>
+            <p>Auto discard idle time</p>
+            <p>Teams</p>
+            <p>Limited public API</p>
+            <p>Scheduling & attendance</p>
+            <p>Invoices</p>
+            <p>Payroll</p>
+            <p>Client & project budgets</p>
+            <p>Timesheet approvals</p>
+            <p>Daily & weekly limits</p>
+            <p>Expense tracking</p>
+           
+
+          </div>
+         
+
+
+
+
+          <div class="col-sm-4 text-dark h-50 w-25" style="border:1px solid gainsboro; margin-left: 3%;">
+           <p style="font-size: 40px;" class="mt-3">Enterprise</p>
+            <p class="mt-5" style="font-size: 21px;">Get a customized plan</p>
+            <button class="btn btn-outline-primary mt-5 p-3 w-75" style="margin-left: 10%;"><b>Let's talk</b></button>
+            <p class="mt-3">All Time, Desk & Field, plus:</p>
+            <p>VIP support</p>
+            <p>Concierge setup</p>
+            <p> Higher limits on public API</p>
+            <p> Unlimited job sites</p>
+            <p>Pay by bank debit (ACH)</p>
+            <p> HIPAA compliance</p>
+          </div>
+          <p class="text-dark text-center mt-3">Not sure? Start your trial and pick later.</p>
+          <button class="p-2 w-25 mx-auto" style="border: 1px solid gainsboro;">Pick a plan later</button>
+          <span class="text-dark text-center mt-3">Have questions? Read our <span class="text-primary"> FAQ </span> or  <span class="text-primary">contact us.</span> </span>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="tab-pane" id="field">
+      <div class="container m-5">
+        <div class="row">
+          <div class="col-sm-4 text-dark h-50 w-25" style="border: 1px solid gainsboro;margin-left: 10%;">
+            <p class="mt-3" style="font-size: 45px;">Field</p> 
+            <strong style="font-size: 50px;">$10</strong>
+            <span style="font-size: 20px;">/user/ mo</span>
+            <p>Starts at $20. Includes 2 users.</p>
+            <button class="btn btn-outline-primary p-3 w-75" style="margin-left: 10%;"><b>Choose time starter</b></button>
+            <p class="mt-3"> Time tracking</p>
+            <p>Timesheets </p>
+            <p>Work orders & jobs</p>
+            <p>Mobile GPS tracking</p>
+            <p>Fleet tracking</p>
+            <p>Fleet tracking</p>
+            <p>
+              Teams
+            </p>
+            <p>
+              Payments
+            </p>
+            <p>
+              Unlimited integrations
+            </p>
+            <p>
+              Limited public API
+            </p>
+            <p>
+              Time off & holidays
+            </p>
+            <p>Scheduling & attendance</p>
+            <p>Invoices</p>
+            <p>Payroll</p>
+            <p>Client & project budgets</p>
+            <p>FTimesheet approvals</p>
+            <p>Daily & weekly limits</p>
+            <p>Expense tracking</p>
+            <p>24h support</p>
+         
+          </div>
+          <div class="col-sm-4 text-dark w-25 " style="border: 3px solid blue; margin-left: 3%;">
+            <p style="font-size: 40px;" class="mt-3">Desk & Field</p>
+            <strong style="font-size: 45px;">$10</strong>
+            <span style="font-size: 20px;"> /user/ mo</span>
+            <p>Starts at $20. Includes 2 users.</p>
+            <button class="  p-3 w-75 mt-3" style="margin-left: 10%;"><b>Choose time pro</b></button>
+            <p class="mt-3"> Time tracking</p>
+            <p> Timesheets</p>
+            <p>Activities Level</p>
+            <p>Unlimited Screenshot</p>
+            <p> Reports</p>
+            <p>Payments</p>
+            <p>Unlimited integration</p>
+            <p>24h support</p>
+            <p> Per user settings</p>
+            <p>Track apps & URLs</p>
+            <p>Auto discard idle time</p>
+            <p>Teams</p>
+            <p>Limited public API</p>
+            <p>Scheduling & attendance</p>
+            <p>Invoices</p>
+            <p>Payroll</p>
+            <p>Client & project budgets</p>
+            <p>Timesheet approvals</p>
+            <p>Daily & weekly limits</p>
+            <p>Expense tracking</p>
+           
+
+          </div>
+          <div class="col-sm-4 text-dark h-50 w-25" style="border:1px solid gainsboro; margin-left: 3%;">
+           <p style="font-size: 40px;" class="mt-3">Enterprise</p>
+            <p class="mt-5" style="font-size: 21px;">Get a customized plan</p>
+            <button class="btn btn-outline-primary mt-5 p-3 w-75" style="margin-left: 10%;"><b>Let's talk</b></button>
+            <p class="mt-3">All Time, Desk & Field, plus:</p>
+            <p>VIP support</p>
+            <p>Concierge setup</p>
+            <p> Higher limits on public API</p>
+            <p> Unlimited job sites</p>
+            <p>Pay by bank debit (ACH)</p>
+            <p> HIPAA compliance</p>
+          </div>
+          <p class="text-dark text-center mt-3">Not sure? Start your trial and pick later.</p>
+          <button class="p-2 w-25 mx-auto" style="border: 1px solid gainsboro;">Pick a plan later</button>
+          <span class="text-dark text-center mt-3">Have questions? Read our <span class="text-primary"> FAQ </span> or  <span class="text-primary">contact us.</span> </span>
+        </div>
+      </div>
+
+
+    </div>
+
+</body>
+</html>

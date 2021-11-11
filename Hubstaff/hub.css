@@ -1,0 +1,431 @@
+.container-fluid{
+    background-color: rgb(255, 255, 255); 
+   height: 70px;
+   border: solid 1px lightgray;
+   align-items: center;
+   
+}
+.nav-link:hover{
+   color: gold;
+}
+
+
+
+.pix{
+   width: 25px;
+   height: 20px;
+}
+.pix:hover > .pix{
+   color: goldenrod;
+}
+#drop{
+   display: none;
+   background-color: white;
+   box-shadow: 0px 0px 1px 0px;
+   
+}
+#tem:hover > #drop{
+   display: flex;
+   border: none;
+}
+
+#drop2{
+   display: none;
+   background-color: white;
+   /* border: none; */
+
+}
+#tem2:hover > #drop2{
+   display: grid;
+   display: flex;
+}
+#drop3{
+   display: none;
+   background-color: white;
+   
+}
+#tem:hover > #drop{
+   display: flex;
+   border: none;
+}
+#tem3:hover > #drop3{
+   display: grid;
+   border: none;
+   display: flex;
+}
+#tem9:hover > #drop3{
+   display: grid;
+   border: none;
+   display: flex;
+}
+
+#drop4{
+   display: none;
+   background-color: white;
+}
+#tem4:hover > #drop4{
+   display: grid;
+   border: none;
+}
+#drop5{
+   display: none;
+   background-color: white;
+   border: none;
+}
+#tem5:hover > #drop5{
+   display: grid;
+   border: none;
+}
+#drop6{
+   display: none;
+   background-color: white;
+   border: none;
+}
+#tem6:hover > #drop6{
+   display: grid;
+   border: none;
+}
+.trail{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.sign{
+    width: 120px;
+    height: 40px;
+    border: solid 3px blue;
+    border-radius: 5px;
+    text-align: center;
+    color: blue;
+}
+#pix{
+   width: 5%;
+   height: 11%;
+   border-radius: 100px;
+   position: absolute;
+   top: 3%;
+   left: 5%;
+}
+#pix1{
+   width: 7%;
+   height: 15%;
+   border-radius: 100px;
+   position: absolute;
+   top: 60%;
+   right: 80%;
+
+
+}
+#pix2{
+   width: 10%;
+   height: 19%;
+   border-radius: 100px;
+   position: absolute;
+   top: 40%;
+   right: 85%;
+
+}
+#pix3{
+   width: 9%;
+   height: 17%;
+   border-radius: 100px;
+   position: absolute;
+   top: 40%;
+   left: 16%;
+
+}
+#pix4{
+   width: 5%;
+   height: 9%;
+   border-radius: 100px;
+   position: absolute;
+   top: 20%;
+   left: 6%;
+
+}
+#pix5{
+   width: 5%;
+   height: 10%;
+   border-radius: 100px;
+   position: absolute;
+   top: 5%;
+   left: 22%;
+
+}
+#pix6{
+   width: 7%;
+   height: 10%;
+   border-radius: 100px;
+   position: absolute;
+   top: 5%;
+   left: 12%;
+
+
+}
+/* #pix7{
+   width: 1%;
+   height: 100%;
+   border-radius: 100px;
+   position: absolute;
+   top: 8px;
+   left: 200px;
+
+} */
+#pix8{
+   width: 5%;
+   height: 6%;
+   border-radius: 100px;
+   position: absolute;
+   bottom: 330px;
+   left: 80%;
+
+}
+#pix9{
+   width: 90px;
+   height: 50px;
+   border-radius: 100px;
+
+}
+#pix10{
+   width: 5%;
+   height: 6%;
+   border-radius: 100px;
+   position: absolute;
+   top: 40px;
+   left: 70%;
+
+}
+#pix11{
+   width: 7%;
+   height: 15%;
+   border-radius: 100px;
+   position: absolute;
+   bottom: 20%;
+   left: 90%;
+
+}
+#pix12{
+   width: 10%;
+   height: 19%;
+   border-radius: 100px;
+   position: absolute;
+   top: 50%;
+   left: 80%;
+
+}
+#pix13{
+   width: 10%;
+   height: 15%;
+   border-radius: 100px;
+   position: absolute;
+   top: 30%;
+   left: 75%;
+
+}
+#pix14{
+   width: 60px;
+   height: 40px;
+   border-radius: 100px;
+   position: absolute;
+   top: 100px;
+   left: 178px;
+
+}
+#pix15{
+   width: 11%;
+   height: 20%;
+   border-radius: 100px;
+   position: absolute;
+   top: 70%;
+   left: 70%;
+
+}
+#pix16{
+   width: 4% ;
+   height: 7%;
+   border-radius: 100px;
+   position: absolute;
+   bottom: 40%;
+   left: 71%;
+
+}
+
+
+#put{
+   position: relative;
+}
+/* #lut{
+   position: absolute;
+   top: 410px;
+} */
+.write{
+   position: absolute;
+   top: 180px;
+   left: 120px;
+}
+.learn{
+   position: absolute;
+   top: 210px;
+   left: 110px;
+}
+.wrote{
+   position: absolute;
+   top: 250px;
+   left: 50px;
+}
+.push{
+   position: absolute;
+   top: 270px;
+   left: 120px;
+}
+.view{
+   width: 200px;
+   height: 70px;
+   background-color: rgb(41, 77, 255);
+   border-radius: 10px;
+}
+.post{
+   width: 20%;
+   height: 60px;
+   background-color: rgb(41, 77, 255);
+   border-radius: 10px;
+  
+}
+.post{
+   position: absolute;
+   left: 37%;
+   top: 40%;
+}
+#tele{
+   position: absolute;
+   top: 20%;
+}
+#tele1{
+   position: absolute;
+   top: 30%;
+   left: 33%;
+}
+
+.view{
+   position: absolute;
+   top: 310px;
+   left: 80px;
+   transform: skewY(20);
+}
+.view:hover{
+     color: rgb(7, 14, 49);
+}
+/* @media screen (max-width:500px;) {
+   
+} */
+#oop:hover{
+    background-color: blue;
+   
+    
+}
+#loop:hover{
+   color: white;
+}
+ul{
+   list-style: none;
+   line-height: 2.5;
+}
+li{
+   color: white;
+   font-size: 15px;
+}
+li:hover{
+   text-decoration: underline;
+}
+#video{
+   /* border-radius: 259px 1px 1px 105px; */
+   /* border: 2px solid #73AD21; */
+   /* padding: 20px; */
+   /* width: 50%; */
+   height: 550px;
+   overflow: hidden;
+   clip-path: polygon(30% 100%, 100% 100%, 100% 0, 0 0);
+   border-bottom-left-radius: 290px;
+   border-bottom-right-radius: 100px;
+   width: 50%;
+   
+   
+}
+input{
+   width: 100%;
+   height: 40px;
+   border: solid 1px lightgrey;
+   border-radius: 5px;
+}
+input:focus{
+   border: none;
+   outline: 3px solid #59b3ff;
+ 
+
+}
+#mute{
+   width: 20px;
+   height: 20px;
+   border-radius: 5px;
+   
+}
+.ment:hover {
+   background-color: rgb(7, 14, 49) !important;
+}
+#tab{
+   border-radius: 100px;
+   font-size: 15px;
+
+}
+#tab:hover{
+   color: rgb(7, 14, 49) !important;
+}
+h3{
+   font-size: 40px !important;
+
+}
+a{
+   text-decoration: none !important;
+}
+
+
+
+@media (max-width:700px) {
+     .favour{
+      display: none;
+     }
+     .toggle{
+      /* display: none; */
+   }
+   .tab-content{
+      display: none;
+   }
+   .path{
+      flex-direction: column-reverse;
+      width: 100%;
+      /* overflow: scroll !important; */
+      
+   }
+#video{
+   clip-path: polygon(0 100%, 100% 70%, 100% 0, 0 0) !important;
+   width: 100% !important;
+   height: 20vh !important;
+}
+.way1{
+   width: 100% !important;
+}
+}
+
+
+
+/* play section */
+/* #red{
+   position: relative;
+} */
+/* #red1{
+   position: absolute;
+   top: 20px;
+} */

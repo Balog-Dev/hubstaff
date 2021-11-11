@@ -1,0 +1,26 @@
+.seen ul{
+    
+    width:100% ;
+    justify-content: space-around;
+    
+ 
+  
+}
+nav ul li{
+   text-align: justify;
+   padding: 5px;
+
+}
+#check{
+   
+position: fixed !important;
+top: 0% !important;
+   width:81%;
+   top: 0px;
+ 
+}
+.icon{
+   position: fixed;
+   bottom: 20%;
+   right: 10%;
+}
